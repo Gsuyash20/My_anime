@@ -30,6 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   AnimatedTextKit(
+                    repeatForever: true,
                     animatedTexts: [
                       ColorizeAnimatedText('Hello There.',
                           textStyle: const TextStyle(
