@@ -61,8 +61,8 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 60,
                         ),
                         TextField(
-                          decoration:
-                          kTextFieldDecoration.copyWith(hintText: 'Email'),
+                          enableSuggestions: false,
+                          decoration: kTextFieldDecoration.copyWith(hintText: 'Email'),
                           textAlign: TextAlign.start,
                           keyboardType: TextInputType.emailAddress,
                           onChanged: (value) {
@@ -72,7 +72,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         const SizedBox(
                           height: 40,
                         ),
-                        TextField(
+                        TextFormField(
+                          enableSuggestions: false,
                           obscureText: true,
                           decoration: kTextFieldDecoration.copyWith(
                               hintText: 'Password'),
