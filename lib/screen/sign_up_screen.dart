@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import '../constant_sign_in.dart';
 import '../sign_in/google_sign_in.dart';
-import 'home.dart';
+import 'first_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);

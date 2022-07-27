@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:my_anime/screen/sign_up_screen.dart';
 import '../constant_sign_in.dart';
-import 'home.dart';
+import 'first_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);

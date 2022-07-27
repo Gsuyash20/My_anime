@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import '../screen/home.dart';
+import '../screen/first_screen.dart';
 import '../screen/login_screen.dart';
 
 class SignInError extends StatelessWidget {

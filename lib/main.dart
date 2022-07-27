@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:my_anime/screen/home.dart';
+import 'package:my_anime/screen/first_screen.dart';
 import 'package:my_anime/screen/login_screen.dart';
 import 'package:my_anime/screen/search_bar.dart';
 import 'package:my_anime/screen/sign_up_screen.dart';
@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
       create: (BuildContext context) => GoogleSignInProvider(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: LoginScreen.id,
+        initialRoute: "/",
         routes: {
-          LoginScreen.id: (context) => const LoginScreen(),
+          '/': (context) => const LoginScreen(),
           SignUpScreen.id: (context) => const SignUpScreen(),
           FirstScreen.id: (context) => const FirstScreen(),
           SearchBar.id: (context) => const SearchBar(),
